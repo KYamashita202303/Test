@@ -12,6 +12,7 @@ public class bread {
         bread.add("クロワッサン");
 
         System.out.println("人気のパン４種類です。");
+        System.out.println(bread.get(0));
         System.out.println(bread.get(1));
         System.out.println(bread.get(2));
         System.out.println(bread.get(3));
