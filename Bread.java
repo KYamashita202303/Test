@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class bread {
+public class Bread {
 
     public static void main (String[] args) {
         List<String> bread =new ArrayList<>();
