@@ -1,25 +1,15 @@
-
 class TennisPlayer {
+    private final int Age;
+    private final int Score;
 
-    private String name;
-    private int age;
-    private int score;
-
-    public TennisPlayer(String name, int age, int score) {
-        this.name = name;
-        this.age = age;
-        this.score = score;
+    public TennisPlayer(int Age, int Score) {
+        this.Age = Age;
+        this.Score = Score;
     }
 
-    public String getName() {
-        return name;
+    public int getAge() {return Age;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public int getScore() {
-        return score;
+    public int getScore() {return Score;
     }
 }
