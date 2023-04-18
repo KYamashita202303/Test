@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Bread {
 
-    public static void main (String[] args) {
-        List<String> bread =new ArrayList<>();
+    public static void main(String[] args) {
+        List<String> bread = new ArrayList<>();
 
         bread.add("メロンパン");
         bread.add("食パン");
@@ -18,8 +18,9 @@ public class Bread {
         System.out.println(bread.get(3));
 
         System.out.println("人気のパン４種類です。");
-        for (int i = 0; i < bread.size(); i ++) {
-            System.out.println((bread.get(i)));
+        for (int i = 0, breadSize = bread.size(); i < breadSize; i++) {
+            String s = bread.get(i);
+            System.out.println(s);
         }
 
         System.out.println("人気のパン４種類です。");

@@ -1,7 +1,7 @@
 public class TennisPlayer {
-    private int age;
-    private int score;
-    private String name;
+    private final int age;
+    private final int score;
+    private final String name;
 
     public TennisPlayer(int age, int score, String name) {
         this.age = age;
